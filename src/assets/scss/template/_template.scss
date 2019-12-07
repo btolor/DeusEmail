@@ -1,0 +1,129 @@
+.no-image-row {
+
+  #no-image {
+    padding-top: 16px;
+    padding-right: 20px;
+    color: $text-color;
+    font-size: 12px;
+    float: right;
+    margin-bottom: 0 !important;
+
+    a {
+      color: $text-color;
+      text-decoration: underline;
+    }
+  }
+
+}
+
+.shipping-row {
+  .columns {
+    padding-bottom: 4px !important;
+  }
+}
+
+.banner-row {
+  .columns {
+    padding-bottom: 0 !important;
+  }
+}
+
+.carousel-row {
+  .columns {
+    padding-bottom: 34px !important;
+  }
+}
+
+.footer {
+  .links-row {
+    .brand-media {
+      .social-media-links {
+        .columns {
+          padding-bottom: 20px !important;
+          img {
+            width: 28px;
+            margin: 0 auto;
+            padding-right: 4px;
+          }
+        }
+      }
+      .brand-row{
+        // & > tbody > tr > th{
+        //   padding-bottom: 0;
+        // }
+        #branding{
+          color: #b9b9b9;
+          font-size: 16px;
+          font-weight: 700;
+          margin-bottom: 0;
+        }
+      }
+      .fineprint-row{
+        #fineprint{
+          color: #b9b9b9;
+          font-size: 14px;
+        }
+      }
+    }
+    .share-links{
+      .options{
+        .likes{
+          margin: 0;
+          width: 100%;
+          padding-bottom: 24px;
+          a{
+            background: gray;
+            background-color: gray;
+            color: white;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 13px;
+            font-weight: 700;
+            border-radius: 3px;
+            img{
+              width: 12px;
+              display: inline-block;
+              vertical-align: text-top;
+            }
+          }
+        }
+        .share{
+          margin: 0;
+          width: 100%;
+          a{
+            background: gray;
+            background-color: gray;
+            color: white;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 13px;
+            font-weight: 700;
+            border-radius: 3px;
+            img{
+              width: 14px;
+              display: inline-block;
+              vertical-align: text-bottom;
+            }
+          }
+        }
+      }
+    }
+  }
+  .unsub-row{
+    p{
+      a{
+        color: #b9b9b9;
+        font-size: 12px;
+        text-decoration: underline;
+      }
+      span{
+        color: #b9b9b9;
+        font-size: 12px;
+      }
+    }
+  }
+}
