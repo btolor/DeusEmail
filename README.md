@@ -131,6 +131,6 @@ For a full list of Litmus' supported test clients(applications) see their [clien
 
 **Caution:** AWS Service Fees will result, however, are usually very low do to minimal traffic. Use at your own discretion.
 
-# Burst_Template
+# DeusEmail
 
 
